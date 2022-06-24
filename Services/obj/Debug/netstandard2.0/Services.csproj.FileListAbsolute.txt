@@ -1,0 +1,13 @@
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\bin\Debug\netstandard2.0\Services.deps.json
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\bin\Debug\netstandard2.0\Services.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\bin\Debug\netstandard2.0\Services.pdb
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\obj\Debug\netstandard2.0\Services.csproj.AssemblyReference.cache
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\obj\Debug\netstandard2.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\obj\Debug\netstandard2.0\Services.AssemblyInfoInputs.cache
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\obj\Debug\netstandard2.0\Services.AssemblyInfo.cs
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\obj\Debug\netstandard2.0\Services.csproj.CoreCompileInputs.cache
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\obj\Debug\netstandard2.0\Services.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\obj\Debug\netstandard2.0\Services.pdb
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\bin\Debug\netstandard2.0\Domain.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\bin\Debug\netstandard2.0\Domain.pdb
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\Services\obj\Debug\netstandard2.0\Services.csproj.CopyComplete
