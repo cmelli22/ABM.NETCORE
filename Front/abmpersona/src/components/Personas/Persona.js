@@ -33,12 +33,12 @@ const Persona = ({identificacion, NombreCompleto, Edad, Genero, Estado, Atributo
                 <td>{NombreCompleto}</td>
                 <td>{Edad}</td>
                 <td>{Genero}</td>
-                <td>{Estado}</td>
+                {<td>{Boolean(Estado)? <p>Activo</p> : <p>No Activo</p>  }</td>}
                 <td>{AtributosAdicionales}</td>
-                <td>{String(Maneja) }</td>
-                <td>{UsaLentes}</td>
-                <td>{Diabetico}</td>
-                <td>{PadeceEnfermedad}</td>
+                {<td>{Boolean(Maneja)? <p>SI</p> : <p>NO</p>  }</td>}
+                {<td>{Boolean(UsaLentes)? <p>SI</p> : <p>NO</p>  }</td>}
+                {<td>{Boolean(Diabetico)? <p>SI</p> : <p>NO</p>  }</td>}
+                {<td>{Boolean(PadeceEnfermedad)? <p>SI</p> : <p>NO</p>  }</td>}
                 <td><button className="btn btn-danger" onClick={borrarItem} >Borrar</button></td>
                 <td><Link to={`/persona/${identificacion}`}><button className="btn btn-primary" >Detalle</button></Link></td>
             </tr>

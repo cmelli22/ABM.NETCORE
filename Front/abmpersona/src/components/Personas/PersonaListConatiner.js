@@ -4,7 +4,6 @@ import {getApiData} from '../../api/get'
 
 const PersonaListContainer = () => {
 
-    let [item, setItem] = useState(0)
     let  [lista, setLista] = useState([])
     useEffect(()=>{
         getApiData();
