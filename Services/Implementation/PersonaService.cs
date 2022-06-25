@@ -21,6 +21,11 @@ namespace Services.Implementation
             return await _repository.Get();
         }
 
+        public async Task<Persona> GetById(int id)
+        {
+            return await _repository.GetById(id);
+        }
+
         public async Task<Persona> Add(Persona entity)
         {
             return await _repository.Add(entity);

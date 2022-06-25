@@ -46,6 +46,13 @@ namespace ABM
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(x => x
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .SetIsOriginAllowed(origin => true) // allow any origin
+                .AllowCredentials()); // allow credentials
+
+
             app.UseHttpsRedirection();
 
             app.UseRouting();

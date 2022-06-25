@@ -9,6 +9,7 @@ namespace Domain
     public interface IRepository
     {
         Task<List<Persona>> Get();
+        Task<Persona> GetById(int id);
         Task<Persona> Add(Persona entity);
         Task<Persona> Delete(Persona entity);
         Task<Persona> Update(Persona entity);

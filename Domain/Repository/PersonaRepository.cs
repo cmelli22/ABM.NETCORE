@@ -22,6 +22,11 @@ namespace Domain.Repository
             return await _context.Persona.ToListAsync();
         }
 
+        public async Task<Persona> GetById(int id)
+        {
+            return await _context.Persona.Where(p => p.Identificacion.Equals(id)).FirstAsync();
+        }
+
         public async Task<Persona> Add(Persona entity)
         {
             var reply = await _context.AddAsync(entity);
