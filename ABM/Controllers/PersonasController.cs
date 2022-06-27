@@ -33,6 +33,7 @@ namespace ABM.Controllers
 
         [HttpPost]
         public async Task<IActionResult> Add(Persona entity)
+        
         {
             var reply = await _service.Add(entity);
             return Ok(reply);

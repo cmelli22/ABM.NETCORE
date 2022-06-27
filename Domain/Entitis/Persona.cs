@@ -13,12 +13,12 @@ namespace Domain.Entitis
         public int Identificacion { get; set; }
         public int Edad { get; set; }
         public string Genero { get; set; }
-        public bool? Estado { get; set; }
+        public bool? Estado { get; set; } = false;
         public string AtributosAdicionales { get; set; }
-        public bool? Maneja { get; set; }
-        public bool? UsaLentes { get; set; }
-        public bool? Diabetico { get; set; }
-        public bool? PadeceEnfermedad { get; set; }
+        public bool? Maneja { get; set; } = false;
+        public bool? UsaLentes { get; set; } = false;
+        public bool? Diabetico { get; set; } = false;
+        public bool? PadeceEnfermedad { get; set; } = false;
         public string DescricpcionEnfermedad { get; set; }
     }
 }
