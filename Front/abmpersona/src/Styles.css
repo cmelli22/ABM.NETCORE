@@ -16,6 +16,11 @@
   height: 60px;
 }
 
+.botonera{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
 
 .footer {
   background-color:rgb(2, 20, 20);
@@ -85,5 +90,30 @@
 
 .button{
   margin-top: 30px;
+}
+
+
+.card{
+  display:flex;
+  justify-content: space-between;
+  flex-direction:column;
+  background-color: rgb(172, 194, 238) !important;
+  margin: 5%;
+}
+
+
+.card button{
+  width: 100%;
+  margin-top: 5px;
+  background-color: rgb(172, 194, 238);
+
+}
+
+.containerCard{
+  background-color: rgb(172, 194, 238) !important;
+  display:flex;
+  flex-direction:row;
+  margin: 5%;
+  margin-left: 27%;
 }
 

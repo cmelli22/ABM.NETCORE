@@ -1,5 +1,5 @@
 const IsNull = (value) => {
-    return (!value || value == undefined || value == "" || value.length == 0);
+    return (!value || value === undefined || value === "" || value.length === 0);
 }
 
 export const Validate = (pers) =>{

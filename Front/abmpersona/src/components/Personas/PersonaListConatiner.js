@@ -1,7 +1,6 @@
-import { useState , useEffect} from "react"
-import PersonaList from './PersonaList'
-import {getApiData} from '../../api/get'
-
+import { useState , useEffect} from "react";
+import PersonaList from './PersonaList';
+import { Link } from "react-router-dom";
 const PersonaListContainer = () => {
 
     let  [lista, setLista] = useState([])
@@ -22,6 +21,15 @@ const PersonaListContainer = () => {
             <div className="itemContainer">
                 <h1>Personas</h1>
                 <PersonaList personas={lista}/>
+                <div className="botonera">
+                    <Link to ={"/"}>
+                        <button className="btn btn-danger">Volver</button>
+                    </Link>
+                    <Link to ={"/Alta"}>
+                        <button className="btn btn-primary">Alta</button>
+                    </Link>
+                </div>
+
             </div>
         </>
     )
