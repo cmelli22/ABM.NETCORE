@@ -1,8 +1,7 @@
 import { useState , useEffect} from "react"
 import {Link} from 'react-router-dom'
 
-const Persona = ({identificacion, NombreCompleto, Edad, Genero, Estado, AtributosAdicionales,Maneja,UsaLentes,Diabetico,PadeceEnfermedad,DescricpcionEnfermedad}) => {
-
+const Persona = ({identificacion, NombreCompleto, Edad, Genero, Estado, AtributosAdicionales,Maneja,UsaLentes,Diabetico,PadeceEnfermedad,DescripcionEnfermedad}) => {
 
     const borrarItem = async () => {
         const requestOptions = {
@@ -19,11 +18,11 @@ const Persona = ({identificacion, NombreCompleto, Edad, Genero, Estado, Atributo
                 usaLentes: UsaLentes,
                 diabetico: Diabetico,
                 padeceEnfermedad: PadeceEnfermedad,
-                descricpcionEnfermedad: null
+                descricpcionEnfermedad: DescripcionEnfermedad
              })
         };
         await fetch('https://localhost:44331/api/personas',requestOptions);
-        window.location.href = '/';
+        window.location.href = '/Listar';
     } 
 
     return(
@@ -39,6 +38,7 @@ const Persona = ({identificacion, NombreCompleto, Edad, Genero, Estado, Atributo
                 {<td>{Boolean(UsaLentes)? <p>SI</p> : <p>NO</p>  }</td>}
                 {<td>{Boolean(Diabetico)? <p>SI</p> : <p>NO</p>  }</td>}
                 {<td>{Boolean(PadeceEnfermedad)? <p>SI</p> : <p>NO</p>  }</td>}
+                <td>{DescripcionEnfermedad}</td>
                 <td><button className="btn btn-danger" onClick={borrarItem} >Borrar</button></td>
                 <td><Link to={`/persona/${identificacion}`}><button className="btn btn-primary" >Detalle</button></Link></td>
             </tr>

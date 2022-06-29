@@ -18,7 +18,7 @@ const Form = ({personaProp, modificarProp, alta}) => {
         persona.UsaLentes= personaProp.usaLentes;
         persona.Diabetico= personaProp.diabetico;
         persona.PadeceEnfermedad= personaProp.padeceEnfermedad;
-        persona.DescricpcionEnfermedad = personaProp.descricpcionEnfermedad;
+        persona.DescripcionEnfermedad = personaProp.descripcionEnfermedad;
 
     }
 
@@ -61,7 +61,7 @@ const Form = ({personaProp, modificarProp, alta}) => {
                 persona.PadeceEnfermedad= Boolean(e.target.checked)
                 break;
             case 'DescripcionEnfermedad':
-                persona.DescricpcionEnfermedad= e.target.value
+                persona.DescripcionEnfermedad= e.target.value
                 break;
         }
         console.log(persona)
@@ -130,7 +130,7 @@ const Form = ({personaProp, modificarProp, alta}) => {
                 </div> 
             </div>
             <div>
-                <TextField margin="normal" id="DescripcionEnfermedad" fullWidth={true} label="Enfermedad que padece" color="primary" variant="outlined"/>
+                <TextField margin="normal" value={personaProp.descripcionEnfermedad} name="DescripcionEnfermedad" fullWidth={true} onChange={(e)=> {setPersona(e)}} label="Enfermedad que padece" color="primary" variant="outlined"/>
             </div>
             <button type="submit" className="btn btn-primary button" onClick={Guardar}>Guardar</button>
         </div> 
@@ -148,7 +148,7 @@ const Form = ({personaProp, modificarProp, alta}) => {
                 </div>
                 <div >  
                     <TextField color="primary" value={personaProp.atributosAdicionales}  className="largeInput" onBlur={(e)=> {setPersona(e)}} margin="normal" name="AtributosAdicionales" label="Atributos Adicionales" variant="outlined"  InputLabelProps={{ shrink: true }}/>
-                    <TextField color="primary" value={personaProp.genero}  required className="shortInput" name="Genero" onChange={(e)=> {setPersona(e)}} select="true" margin="normal" label="Genero" variant="outlined" InputLabelProps={{ shrink: true }} >
+                    <TextField color="primary" value={personaProp.genero} selected={personaProp.genero} required className="shortInput" name="Genero" onChange={(e)=> {setPersona(e)}} select="true" margin="normal" label="Genero" variant="outlined" InputLabelProps={{ shrink: true }} >
                         <MenuItem value="F">Femenino</MenuItem>
                         <MenuItem value="M">Masculino</MenuItem>
                     </TextField>    
@@ -168,7 +168,7 @@ const Form = ({personaProp, modificarProp, alta}) => {
                     </div> 
                 </div>
                 <div>
-                    <TextField margin="normal" id="DescripcionEnfermedad" fullWidth={true} label="Enfermedad que padece" color="primary" variant="outlined"  InputLabelProps={{ shrink: true }}/>
+                    <TextField margin="normal" name="DescripcionEnfermedad" onChange={(e)=> {setPersona(e)}} fullWidth={true} label="Enfermedad que padece" color="primary" variant="outlined"  InputLabelProps={{ shrink: true }}/>
                 </div>
                 <div className="botonera">
                     <button type="submit" className="btn btn-danger button" onClick={() => setModificar(true)}>Modificar</button>

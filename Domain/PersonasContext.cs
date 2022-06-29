@@ -40,7 +40,7 @@ namespace Domain
                     .HasCharSet("utf8mb4")
                     .HasCollation("utf8mb4_0900_ai_ci");
 
-                entity.Property(e => e.DescricpcionEnfermedad)
+                entity.Property(e => e.DescripcionEnfermedad)
                     .HasColumnName("descricpcionEnfermedad")
                     .HasColumnType("varchar(200)")
                     .HasCharSet("utf8mb4")

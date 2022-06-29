@@ -45,3 +45,12 @@ D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de dise�
 D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Domain.pdb
 D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Services.dll
 D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Services.pdb
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Infraestructure.dll
+D:\Users\cmellibosky\OneDrive - CRESUD S.A.C.I.F.y A\Documents\Patrones de diseño\ABM\ABM\bin\Debug\netcoreapp3.1\Infraestructure.pdb

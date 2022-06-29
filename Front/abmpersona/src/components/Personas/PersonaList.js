@@ -16,6 +16,7 @@ const PersonaList = ({personas}) => {
                     <th>Usa Lentes</th>
                     <th>Diabetico</th>
                     <th>Enfermo</th>
+                    <th>Enfermedad</th>
                     <th></th>
                     <th></th>
                 </tr>
@@ -25,7 +26,7 @@ const PersonaList = ({personas}) => {
             personas.map((element, index) => {
 
                 return (
-                    <Persona  NombreCompleto= {element.nombreCompleto} identificacion= {element.identificacion} Edad = {element.edad} Genero= {element.genero} Estado= {element.estado} AtributosAdicionales= {element.atributosAdicionales} Maneja= {element.maneja} UsaLentes= {element.usaLentes} Diabetico= {element.diabetico} PadeceEnfermedad= {element.padeceEnfermedad} DescricpcionEnfermedad= {null}/>
+                    <Persona  NombreCompleto= {element.nombreCompleto} identificacion= {element.identificacion} Edad = {element.edad} Genero= {element.genero} Estado= {element.estado} AtributosAdicionales= {element.atributosAdicionales} Maneja= {element.maneja} UsaLentes= {element.usaLentes} Diabetico= {element.diabetico} PadeceEnfermedad= {element.padeceEnfermedad} DescripcionEnfermedad= {element.descripcionEnfermedad}/>
                 )
                 })
                 }

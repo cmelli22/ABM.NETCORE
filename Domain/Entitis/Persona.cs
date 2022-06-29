@@ -19,6 +19,6 @@ namespace Domain.Entitis
         public bool? UsaLentes { get; set; } = false;
         public bool? Diabetico { get; set; } = false;
         public bool? PadeceEnfermedad { get; set; } = false;
-        public string DescricpcionEnfermedad { get; set; }
+        public string DescripcionEnfermedad { get; set; }
     }
 }

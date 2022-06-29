@@ -1,4 +1,5 @@
 ﻿using Domain.Entitis;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Services.Interfaces;
@@ -8,6 +9,7 @@ namespace ABM.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    //[Authorize]
     public class PersonasController : ControllerBase
     {
         private readonly IPersonaService _service;
